@@ -4,9 +4,9 @@
 
 Ingénieur diplômé en **systèmes industriels (2016)**, aujourd’hui en transition vers le développement logiciel. Élève à **42 Paris**, je consolide mes compétences en programmation système, architecture logicielle, algorithmique, réseau et développement bas niveau.
 
-Je m’intéresse à la programmation depuis **2008**. Mon objectif : construire un profil hybride à l’intersection du **software engineering**, de la **cybersécurité**, de la **data** et de l’**intelligence artificielle**.
+Je m’intéresse à la programmation depuis **2008**. Mon objectif : construire un profil hybride à l’intersection de la **cybersécurité** et de l’**intelligence artificielle**.
 
-- 🎯 Double spécialité **cybersécurité** et **IA / data** visée à l’horizon **2027**
+- 🎯 Double spécialité **cybersécurité** et **IA** visée à l’horizon **2027**
 - 💼 Disponible sur le marché de l’emploi informatique à partir de **décembre 2026**
 
 -----
@@ -18,7 +18,7 @@ Industrial Systems Engineer
         ↓
   Software Engineer
         ↓
-Cybersecurity + Data + AI
+Cybersecurity + AI
 ```
 
 Mon parcours me donne une double culture :
@@ -38,17 +38,15 @@ Je souhaite construire des logiciels robustes, utiles, maintenables et sécuris�
 
 **Défensif** — durcissement Linux · configuration sécurisée de serveurs · isolation Docker · gestion des ports et services exposés · réduction de surface d’attaque · logs, supervision et bonnes pratiques système.
 
-### 📊 Data
 
-Structuration, transformation et exploitation des données : modélisation relationnelle · PostgreSQL · SQLite · parsing · ETL · moteur de calcul · tableur programmable · pipelines · automatisation de traitements.
 
 ### 🤖 Intelligence artificielle
 
 IA appliquée, intégrée à des systèmes logiciels utiles : assistants spécialisés · analyse documentaire · automatisation intelligente · extraction d’informations · raisonnement assisté · IA appliquée à la data · IA dans des outils métier.
 
-### ⚙️ Programmation système
+#### 📊 Data
 
-C · C++ · sockets · fichiers · processus · mémoire · réseau · serveurs HTTP · Linux · comportement bas niveau des programmes.
+Structuration, transformation et exploitation des données : modélisation relationnelle · PostgreSQL · SQLite · parsing · ETL · moteur de calcul · tableur programmable · pipelines · automatisation de traitements.
 
 -----
 
@@ -56,11 +54,11 @@ C · C++ · sockets · fichiers · processus · mémoire · réseau · serveurs 
 
 |Catégorie           |Technologies                                                                       |
 |--------------------|-----------------------------------------------------------------------------------|
-|**Langages**        |C · C++ · Go · Python · Java · Kotlin · Dart · JavaScript · TypeScript · SQL · Bash|
-|**Système**         |Linux · Docker · Git · Makefile · Shell · sockets TCP/UDP · epoll · HTTP           |
-|**Backend**         |REST APIs · Spring Boot · Go HTTP · PostgreSQL · SQLite · JWT · Nginx              |
-|**Frontend / UI**   |React · Next.js · Tailwind CSS · Flutter · Jetpack Compose · Qt Widgets            |
-|**Bases de données**|PostgreSQL · SQLite · H2 · modélisation relationnelle · contraintes d’intégrité    |
+|**Langages**        |C · C++ · Go · Python · Java                                                       |
+|**Système**         |Linux · Docker · Git · Makefile · Shell                                            |
+|**Backend**         |REST APIs · Spring Boot · Go HTTP · Nginx                                          |
+|**Frontend / UI**   |React · Next.js · Tailwind CSS · Flutter                                           |
+|**Bases de données**|PostgreSQL · SQLite                                                                |
 
 -----
 
@@ -156,9 +154,8 @@ Software Engineer + Cybersecurity + Data / AI + Industrial Systems Background
 
 ## Méthode de travail
 
-Compréhension profonde · simplicité structurelle · qualité du code · documentation · testabilité · sécurité · maintenabilité · progression continue.
+Compréhension profonde · travail d'équipe · simplicité structurelle · qualité du code · documentation · testabilité · sécurité · maintenabilité · progression continue.
 
-> Construire moins de projets, mais les construire sérieusement.
 
 -----
 
@@ -168,4 +165,4 @@ Compréhension profonde · simplicité structurelle · qualité du code · docum
 
 - GitHub : [@roxanmlr](https://github.com/roxanmlr)
 - Disponibilité informatique : **décembre 2026**
-- Objectif 2027 : double spécialité **cybersécurité** et **IA / data**
+- Objectif 2027 : double spécialité **cybersécurité** et **IA**
