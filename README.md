@@ -1,16 +1,171 @@
-## Hi there 👋
+# Loïc MILANDOU
 
-<!--
-**roxanmlr/roxanmlr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Ingénieur en systèmes industriels · Élève à 42 Paris · En transition vers le génie logiciel, la cybersécurité, la data et l’intelligence artificielle**
 
-Here are some ideas to get you started:
+Ingénieur diplômé en **systèmes industriels (2016)**, aujourd’hui en transition vers le développement logiciel. Élève à **42 Paris**, je consolide mes compétences en programmation système, architecture logicielle, algorithmique, réseau et développement bas niveau.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Je m’intéresse à la programmation depuis **2008**. Mon objectif : construire un profil hybride à l’intersection du **software engineering**, de la **cybersécurité**, de la **data** et de l’**intelligence artificielle**.
+
+- 🎯 Double spécialité **cybersécurité** et **IA / data** visée à l’horizon **2027**
+- 💼 Disponible sur le marché de l’emploi informatique à partir de **décembre 2026**
+
+-----
+
+## Positionnement
+
+```txt
+Industrial Systems Engineer
+        ↓
+  Software Engineer
+        ↓
+Cybersecurity + Data + AI
+```
+
+Mon parcours me donne une double culture :
+
+- **Ingénierie industrielle** : rigueur, systèmes, exigences, documentation, maintenance, gestion de projet.
+- **Informatique** : programmation, systèmes, réseau, backend, architecture logicielle, sécurité et data.
+
+Je souhaite construire des logiciels robustes, utiles, maintenables et sécurisés.
+
+-----
+
+## Domaines principaux
+
+### 🔐 Cybersécurité
+
+**Offensif** — compréhension des vulnérabilités · sécurité applicative · réseau · analyse de comportements serveur · exploitation contrôlée dans un cadre légal · compréhension bas niveau des systèmes.
+
+**Défensif** — durcissement Linux · configuration sécurisée de serveurs · isolation Docker · gestion des ports et services exposés · réduction de surface d’attaque · logs, supervision et bonnes pratiques système.
+
+### 📊 Data
+
+Structuration, transformation et exploitation des données : modélisation relationnelle · PostgreSQL · SQLite · parsing · ETL · moteur de calcul · tableur programmable · pipelines · automatisation de traitements.
+
+### 🤖 Intelligence artificielle
+
+IA appliquée, intégrée à des systèmes logiciels utiles : assistants spécialisés · analyse documentaire · automatisation intelligente · extraction d’informations · raisonnement assisté · IA appliquée à la data · IA dans des outils métier.
+
+### ⚙️ Programmation système
+
+C · C++ · sockets · fichiers · processus · mémoire · réseau · serveurs HTTP · Linux · comportement bas niveau des programmes.
+
+-----
+
+## Stack technique
+
+|Catégorie           |Technologies                                                                       |
+|--------------------|-----------------------------------------------------------------------------------|
+|**Langages**        |C · C++ · Go · Python · Java · Kotlin · Dart · JavaScript · TypeScript · SQL · Bash|
+|**Système**         |Linux · Docker · Git · Makefile · Shell · sockets TCP/UDP · epoll · HTTP           |
+|**Backend**         |REST APIs · Spring Boot · Go HTTP · PostgreSQL · SQLite · JWT · Nginx              |
+|**Frontend / UI**   |React · Next.js · Tailwind CSS · Flutter · Jetpack Compose · Qt Widgets            |
+|**Bases de données**|PostgreSQL · SQLite · H2 · modélisation relationnelle · contraintes d’intégrité    |
+
+-----
+
+## Projets principaux
+
+Je préfère un portfolio concentré autour de quelques projets profonds et cohérents avec mon objectif professionnel.
+
+### 🌐 WebServer
+
+Serveur HTTP en **C++98**, développé dans le cadre de 42 Paris. Comprendre en profondeur le fonctionnement d’un serveur web, des sockets au traitement des requêtes HTTP.
+
+**Objectifs** — serveur HTTP sans framework · gestion de plusieurs clients simultanés · sockets non bloquantes · multiplexage d’E/S avec `epoll` · parsing HTTP · réponses HTTP valides · fichiers statiques · méthodes HTTP · uploads · pages d’erreur · tests de robustesse et de performance · exécution sous Docker.
+
+**Compétences** — C++98 · Linux · sockets TCP · programmation non bloquante · architecture serveur · gestion mémoire · tests de charge · debugging système.
+
+```txt
+socket · bind · listen · accept · recv · send · close
+epoll · non-blocking I/O · HTTP/1.1 · Docker · ab · wrk · siege
+```
+
+> Projet central reliant programmation système, réseau, backend, performance, robustesse et sécurité — une base solide vers la cybersécurité.
+
+### 🧬 Rxlang
+
+Projet personnel de **conception de langage de programmation**. Explorer les choix fondamentaux : syntaxe, typage, compilation, sémantique, constantes, variables, fonctions, types, espaces de noms et génération de code.
+
+**Objectifs** — syntaxe claire · typage fort · distinction constantes / variables · valeurs optionnelles · système de fonctions et de types cohérent · génération de code au compile-time · grammaire lisible · expérimentation autour de la sécurité du langage.
+
+**Axes de recherche** — design de langage · parsing · AST · analyse sémantique · typage · espaces de noms · visibilité · types composés · gestion des valeurs indéfinies · compile-time programming.
+
+> Un projet d’apprentissage profond sur la manière dont un langage peut guider le programmeur vers du code plus clair, plus sûr et plus explicite.
+
+### 📐 Spreadsheet Engine / Tableur
+
+Projet portefeuille en préparation : un **tableur programmable** conçu comme un véritable projet d’ingénierie logicielle.
+
+**Fonctionnalités visées** — cellules · lignes / colonnes · plages · formules · moteur de calcul · dépendances entre cellules · recalcul automatique · détection de cycles · typage des valeurs · fonctions natives et personnalisées · import/export · persistance · architecture extensible.
+
+```txt
+Cell · Range · Formula · Parser · AST · Dependency Graph
+Evaluation Engine · Cycle Detection · Recalculation · Type System
+```
+
+**Architecture envisagée**
+
+```txt
+UI
+↓
+Application Layer
+↓
+Spreadsheet Engine
+↓
+Formula Parser
+↓
+Dependency Graph
+↓
+Storage Layer
+```
+
+**IA future** — expliquer des formules · générer des formules · analyser des données · détecter des incohérences · proposer des visualisations · automatiser des tâches répétitives.
+
+> Combine `Data + Algorithms + Parsing + UI + Backend + Architecture + AI` — concret pour un recruteur, profond pour démontrer une vraie capacité d’ingénierie.
+
+-----
+
+## Expérience industrielle
+
+Avant ma transition, ingénieur d’études en industrie, dans des environnements liés aux systèmes industriels et ferroviaires.
+
+**Compétences** — analyse d’exigences · documentation technique · maintenance industrielle · soutien logistique intégré · analyse système · coordination technique · gestion de livrables · rigueur d’ingénierie · communication technique · relation client / fournisseur.
+
+Cette expérience influence ma manière de concevoir le logiciel : des systèmes **compréhensibles, robustes, maintenables, documentés, testables et utiles** dans un contexte réel.
+
+-----
+
+## Objectif professionnel
+
+```txt
+Software Engineer + Cybersecurity + Data / AI + Industrial Systems Background
+```
+
+**Postes ciblés à partir de décembre 2026** — Développeur backend · Développeur C / C++ · Software Engineer · Junior Cybersecurity Engineer · Security-oriented Backend Developer · Data / AI Software Engineer · Ingénieur logiciel avec background industriel.
+
+-----
+
+## Ce que je construis actuellement
+
+1. **WebServer** — un serveur HTTP en C++98 → *System Programming*
+1. **Rxlang** — un langage expérimental → *Language Design*
+1. **Spreadsheet Engine** — un moteur de tableur programmable → *Data / AI Tooling*
+
+-----
+
+## Méthode de travail
+
+Compréhension profonde · simplicité structurelle · qualité du code · documentation · testabilité · sécurité · maintenabilité · progression continue.
+
+> Construire moins de projets, mais les construire sérieusement.
+
+-----
+
+## Contact
+
+**Loïc MILANDOU**
+
+- GitHub : [@roxanmlr](https://github.com/roxanmlr)
+- Disponibilité informatique : **décembre 2026**
+- Objectif 2027 : double spécialité **cybersécurité** et **IA / data**
