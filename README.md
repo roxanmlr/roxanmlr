@@ -91,36 +91,24 @@ Projet personnel de **conception de langage de programmation**. Explorer les cho
 
 > Un projet d’apprentissage profond sur la manière dont un langage peut guider le programmeur vers du code plus clair, plus sûr et plus explicite.
 
-### 📐 Spreadsheet Engine / Tableur
+### 📐 Spreadsheet Engine
 
-Projet portefeuille en préparation : un **tableur programmable** conçu comme un véritable projet d’ingénierie logicielle.
+Un **moteur de tableur programmable**, conçu de zéro comme exercice d’ingénierie logicielle profond et cohérent.
 
-**Fonctionnalités visées** — cellules · lignes / colonnes · plages · formules · moteur de calcul · dépendances entre cellules · recalcul automatique · détection de cycles · typage des valeurs · fonctions natives et personnalisées · import/export · persistance · architecture extensible.
+Un tableur est bien plus qu’un tableau de cellules : c’est un **mini-runtime** avec son propre langage d’expression, son système de types, son graphe de dépendances et son moteur d’évaluation. Construire ce genre de système oblige à résoudre des problèmes concrets que l’on retrouve dans les compilateurs, les moteurs de règles, les outils data et les systèmes de traitement de flux.
 
-```txt
-Cell · Range · Formula · Parser · AST · Dependency Graph
-Evaluation Engine · Cycle Detection · Recalculation · Type System
-```
+**Aspects techniques abordés**
 
-**Architecture envisagée**
+- **Parsing de formules** — tokenisation, grammaire, construction d’un AST, gestion des priorités d’opérateurs et de la récursion.
+- **Graphe de dépendances** — modélisation des relations entre cellules, propagation des changements, tri topologique.
+- **Détection de cycles** — identification et rapport des références circulaires, invariants de cohérence du graphe.
+- **Moteur d’évaluation** — évaluation récursive ou itérative des expressions, recalcul incrémental, gestion du cache.
+- **Système de types** — nombres · chaînes · booléens · dates · valeurs d’erreur · propagation des erreurs dans les formules.
+- **Fonctions natives** — implémentation de fonctions agrégées, logiques, mathématiques et textuelles.
+- **Persistance et sérialisation** — import / export de données, formats structurés, intégrité à la lecture.
+- **IA intégrée** — explication de formules · génération assistée · détection d’anomalies · analyse automatique.
 
-```txt
-UI
-↓
-Application Layer
-↓
-Spreadsheet Engine
-↓
-Formula Parser
-↓
-Dependency Graph
-↓
-Storage Layer
-```
-
-**IA future** — expliquer des formules · générer des formules · analyser des données · détecter des incohérences · proposer des visualisations · automatiser des tâches répétitives.
-
-> Combine `Data + Algorithms + Parsing + UI + Backend + Architecture + AI` — concret pour un recruteur, profond pour démontrer une vraie capacité d’ingénierie.
+> Un tableur est essentiellement un interpréteur de langage couplé à un moteur de propagation de données — ce projet couvre la théorie des compilateurs, l’algorithmique des graphes, le traitement de données et les fondamentaux de l’IA appliquée dans un seul système cohérent.
 
 -----
 
