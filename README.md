@@ -1,33 +1,26 @@
 # Loïc MILANDOU
+**Industrial Systems Engineer · Student at 42 Paris · Transitioning into software**
 
-**Ingénieur en systèmes industriels · Élève à 42 Paris · En transition vers l'informatique**
-
-Je développe un moteur de tableur de zéro comme projet de fin d'études personnel
+I'm building a spreadsheet engine from scratch as a personal capstone project
 
 ---
-
 ## Spreadsheet Engine
+### Why this project?
+This project interests me particularly because of its ubiquity in professional environments and its engineering complexity.
+My goal is to build a high-performance spreadsheet (low memory footprint, fast response times) with native support for concurrent use.
+Building it from scratch will let me get familiar with compiler theory, graph algorithms, distributed systems, and cybersecurity within a single, coherent, hands-on project.
+### Key deliverables
+**Expression language and interpreter**
 
-### Pourquoi ce projet ?
+This is the main channel of communication between the user and the software. In particular, it must be data-oriented and provide clear error messages.
 
-Ce projet m'interesse particulierement dû fait de son omniprésence dans les environnements professionnels et de la complexité d'ingénierie.
-Mon objectif est de réaliser un tableur performant (faible empreinte mémoire, réponse rapide) qui nativement supporte une utilisation concurrente.
-Le construire de zéro me permettra de familiariser à la théorie des compilateurs, les algoritmhes de graphe, les systemes distribuées, la cybersécurité dans un seul projet cohérent et concret.
+**Dependency graph and cycle detection**
 
-### Livrables principaux
+The engine must be able to _present_ the dependency graph to the user and detect circular references.
 
-**Langage d'expression et interpreteur**
+**Distributed Systems and Cybersecurity**
 
-C'est le principal outil de communication entre l'utilisateur et le logiciel. Il doit notamment être orienté données et avoir des erreurs claires.
+The engine will be distributed as a server and able to support concurrent access from multiple users while enforcing access and modification rights.
 
-**Graphe de dépendances et détection des cycles**
-
-Le moteur doit être capable de _présenter_ le graphe de dépendance à l'utilisateur et détecter les références circulaires.
-
-**Systemes distribués et Cybersécurité**
-
-Le moteur sera distribué comme un serveur et être capable de supporter l'acces concurrent de plusieurs utilisateurs tout en respectant les droits d'accès et de modification.
-
-## Stack technique
-
-Le moteur sera développé en C / C++.
+## Tech stack
+The engine will be developed in C / C++.
